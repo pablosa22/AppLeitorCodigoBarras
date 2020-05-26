@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.202
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppConferenciaABP", "AppConferenciaABP\AppConferenciaABP.csproj", "{FD30F470-BC64-42C3-A75C-AF63B1562848}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FD30F470-BC64-42C3-A75C-AF63B1562848}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD30F470-BC64-42C3-A75C-AF63B1562848}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD30F470-BC64-42C3-A75C-AF63B1562848}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD30F470-BC64-42C3-A75C-AF63B1562848}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {144934E3-51FD-4794-BE1F-D75630266BA9}
+	EndGlobalSection
+EndGlobal
