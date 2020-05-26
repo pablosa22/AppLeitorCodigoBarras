@@ -84,6 +84,7 @@ namespace AppConferenciaABP
             TextBoxConferida.Visible = false;
             btConfirmar.Visible = false;
             btProduto.Visible = false;
+            Image1.Visible = false;
             lbCodigo.Visible = false;
             lbDescricao.Visible = false;
             lbQtPedida.Visible = false;
@@ -98,6 +99,7 @@ namespace AppConferenciaABP
             TextBoxConferida.Visible = true;
             btConfirmar.Visible = true;
             btProduto.Visible = true;
+            Image1.Visible = true;
             lbCodigo.Visible = true;
             lbDescricao.Visible = true;
             lbQtPedida.Visible = true;

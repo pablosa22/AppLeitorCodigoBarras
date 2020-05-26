@@ -80,6 +80,7 @@
     function processBarcode(bc) {
         document.getElementById("TextBoxCodigo").value = bc ;
         //put your code in place of the line above.
+        btProduto.click();
     }
 
 </SCRIPT>    
@@ -116,10 +117,14 @@
             <div class="form-group row container">
                 <asp:Label ID="lbCodigo" class="container" runat="server">Código</asp:Label>
                 <div class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4">
-                    <asp:TextBox id="TextBoxCodigo" Text="" class="form-control" runat="server" onclick="getScan();"></asp:TextBox>
-                </div>                
-                
-                <asp:Button ID="btProduto" class="btn btn-outline-primary" runat="server" Text="Pesquisar" OnClick="btProduto_Click" />               
+                    <asp:TextBox id="TextBoxCodigo" Text="" class="form-control" runat="server" ></asp:TextBox>
+                </div>
+                <div class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4">
+                    <asp:Button ID="btProduto" class="btn btn-outline-primary" runat="server" Text="Pesquisar" OnClick="btProduto_Click" />               
+                </div>
+                <div class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4">
+                    <asp:Image ID="Image1" runat="server" ImageUrl="~/Img/codebar.png" onclick="getScan();"/>                
+                </div>
             </div>
 
             <div class="form-group row container">
